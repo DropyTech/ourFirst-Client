@@ -1,0 +1,144 @@
+
+           .dt_ip{
+            border-radius:10px;
+            border:1px solid #aaa;
+            background: #aaa;
+       }
+       .w3-container{
+            padding-top:100px;
+           padding-bottom: 10px;
+       }
+       .w3-dropy-color{
+        background:#ffd93f; 
+        color:grey;
+         font-weight:bold;
+       }
+       @media (max-width: 737px) {
+         .col-lg-4 {
+           padding-top:10px;
+         }
+         
+       }
+      .w3-bar-item{
+       font-weight:600;
+      }
+     img, #dropyimg{
+        padding-top: 10px;
+        border-radius:0px !important;
+      }
+/* gallery */
+.dprow > .dpcolumn {
+padding: 8px 8px;
+}
+
+.dprow:after {
+content: "";
+display: table;
+clear: both;
+}
+
+.dpcolumn {
+float: left;
+width: 25%;
+}
+
+/* The dtnmodal (background) */
+.dtnmodal {
+display: none;
+position: fixed;
+z-index: 1;
+padding-top: 100px;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+overflow: auto;
+background-color: black;
+}
+
+/* dtnmodal Content */
+.dtnmodal-ncontent {
+position: relative;
+background-color: #fefefe;
+margin: auto;
+padding: 0;
+width: 80%;
+max-width: 700px;
+}
+
+/* The dtnclose Button */
+.dtnclose {
+color: white;
+position: absolute;
+top: 100px;
+right: 25px;
+font-size: 35px;
+font-weight: bold;
+}
+@media (max-width: 737px){
+.dtnclose{
+           top:55px;
+         }
+.dpcolumn{
+ width: 100%;
+}
+}
+.dtnclose:hover,
+.dtnclose:focus {
+color: #999;
+text-decoration: none;
+cursor: pointer;
+}
+
+.dtnmyslides {
+display: none;
+}
+
+.cursor {
+cursor: pointer;
+}
+
+/* dtnnext & dtnprevious buttons */
+.dtnprev,
+.dtnnext {
+cursor: pointer;
+position: absolute;
+top: 50%;
+width: auto;
+padding: 16px;
+margin-top: -50px;
+color: white;
+font-weight: bold;
+font-size: 20px;
+transition: 0.6s ease;
+border-radius: 0 3px 3px 0;
+user-select: none;
+-webkit-user-select: none;
+}
+
+/* Position the "dtnnext button" to the right */
+.dtnnext {
+right: 0;
+border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.dtnprev:hover,
+.dtnnext:hover {
+background-color: #000000cc;
+}
+
+img ,.dtnimg {
+margin-bottom: -4px;
+border-radius:0px !important;
+}
+
+.dtndemo {
+opacity: 0.6;
+}
+
+.dtnactive,
+.dtndemo:hover {
+opacity: 1;
+}
+
